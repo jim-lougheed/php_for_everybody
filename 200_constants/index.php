@@ -14,5 +14,8 @@ It's a variable that cannot change.
 	// Echo it 
 	// Try changing it 
 	// Echo new constant 
-
+	define('myName', 'Jim');
+	echo myName;
+	// myName = "bill";
+	echo myName;
 ?>

@@ -12,7 +12,9 @@
 	// echo $array[1];
 
 
-
+$pokemon = array('pengin-san', 'farigiraf', 'zzzzzzzzzzap', 'zubat', 'ihadapony', 'hyhorn');
+echo $pokemon[1];
+print_r($pokemon);
 
 
 

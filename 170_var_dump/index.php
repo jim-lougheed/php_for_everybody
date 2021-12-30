@@ -3,6 +3,9 @@
 * this requires the xdebug module
 <hr />
 
+
+
+
 <?php 
 
 	$array = array(
@@ -17,3 +20,9 @@
 	var_dump($array);
 
 ?>
+
+
+<?php
+$pokemon = array('pengin-san', 'farigiraf', 'zzzzzzzzzzap', 'zubat', 'ihadapony', 'hyhorn');
+
+var_dump($pokemon);

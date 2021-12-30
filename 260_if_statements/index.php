@@ -20,7 +20,14 @@ Conditionals!
 		echo "Secret access granted!";
 	}
 
-
+	$age1 = 32;
+	$name1 = 'Jim';
+	if ($age1 > 30) {
+		echo 'You OLD!';
+	};
+	if ($name1 === 'Jim') {
+		echo "You are $name1";
+	}
 
 
 ?>

@@ -12,6 +12,13 @@ variable's value
 
 	var_dump($age);
 
+	$name = 'Jim';
+	$nameInt = (int) $name;
+	$nameBoolean = (Boolean) $name;
+	$nameFloat = (float) $name;
+	$nameArray = (array) $name;
+	$nameObject = (Object) $name;
 
+	var_dump($name, $nameInt, $nameBoolean, $nameFloat, $nameArray, $nameObject)
 
 ?>

@@ -21,6 +21,20 @@ str_replace();
 
 	echo $sentence . '.. o was replaced with 0: ' . $count . ' times';
 
+	$favouriteDog = 'My favourite dog in the world is Perra';
+	echo $favouriteDog;
+	echo "<hr />";
+	$favouriteDog1 = str_replace('Perra', 'Perra and Rufio', $favouriteDog, $count1);
+	echo $favouriteDog1;
+	echo "<hr />";
+	$favouriteDog2 = str_replace('dog', 'dogs', $favouriteDog1, $count2);
+	echo $favouriteDog2;
+	echo "<hr />";
+	$favouriteDog3 = str_replace('is', 'are', $favouriteDog2, $count3);
+	echo $favouriteDog3;
+	echo "<hr />";
+	echo $count1, $count2, $count3;
+
 
 
 ?>

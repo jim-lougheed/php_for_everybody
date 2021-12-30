@@ -60,7 +60,8 @@ Lists of values
 	unset($names['Nathan']);
 	var_dump($names);
 
-
+	$pokemon = array('pengin-san' => array('type' => 'water'), 'farigiraf' => array('type' => 'psychic'), 'zzzzzzzzzzap' => array('type' => 'electric'), 'zubat' => array('type' => 'poison'), 'ihadapony' => array('type' => 'fire'), 'hyhorn' => array('type' => 'rock'));
+	echo $pokemon['pengin-san']['type'];
 
 
 
