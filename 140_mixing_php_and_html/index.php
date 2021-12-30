@@ -12,6 +12,7 @@
 	echo "</div>";
 
 	$name = "Kalob";
+	$name2 = "Bob";
 ?>
 
 
@@ -21,10 +22,35 @@
 	<?php echo $name; ?>
 </div>
 
+<div>
+	<?php echo "Jim's Pokemon" ?>
+</div>
+<div style='display: flex; justify-content: space-between;'>
+	<div>
+		<?php echo "pengin-san" ?>
+	</div>
+	<div>
+		<?php echo "zzzzzzzzzzap" ?>
+	</div>
+	<div>
+		<?php echo "hyhorn" ?>
+	</div>
+	<div>
+		<?php echo "farigiraf" ?>
+	</div>
+	<div>
+		<?php echo "zubat" ?>
+	</div>
+	<div>
+		<?php echo "ihadapony" ?>
+	</div>
+</div>
+
 
 
 <script>
-	alert("<?php echo $name; ?>");
+	$name2 = prompt("<?php echo 'What is your name?' ?>")
+	alert("<?php echo $name2; ?>");
 </script>
 
 

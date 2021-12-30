@@ -9,9 +9,10 @@
 	$array = 
 	["one", $int, 3.14, $boolean];
 
-	echo $string;
-	echo $int;
-	echo $float;
-	echo $boolean;
+	echo $string . "<br />";
+	echo $int . "<br />";
+	echo $float . "<br />";
+	echo $boolean . "<br />";
+	echo $array[3] . "<br />";
 
 ?>
