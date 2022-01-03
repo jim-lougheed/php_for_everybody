@@ -4,8 +4,7 @@ Checking if a variable is empty or not.
 
 <?php
 
-	
-	$email = '';
+	$email = $_GET['email'];
 
 	if(empty($email)) {
 		echo "Please enter your email address";

@@ -8,6 +8,10 @@ More arrays... again
 
 	$sentence = explode(" ", $sentence);
 
+	$name = "Jim, Lougheed, something, else, I, dunno";
+	$newName = explode(",", $name);
+	var_dump($newName);
+
 	// print_r();
 	var_dump($sentence);
 

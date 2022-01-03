@@ -13,6 +13,7 @@
 
 	if($can_drink) {
 		echo "You can drink";
+		echo "$age $can_drink";
 	}
 
 	var_dump($age);
